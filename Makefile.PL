@@ -1,7 +1,9 @@
+BEGIN {
+    require 5.008001; #in BEGIN block because warnings.pm is used later
+}
 use strict;
 use warnings;
 
-require 5.008001;
 
 use inc::Module::Install;
 use ExtUtils::Depends;
